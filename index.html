@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Biblioteca visual de componentes reutilizáveis.">
+  <title>My Components — Projeto Serliv</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<header class="border-bottom bg-white sticky-top">
+  <nav class="navbar navbar-expand-lg" aria-label="Navegação principal">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#inicio">My Components</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Abrir menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="mainNav" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="#projeto">Projeto</a></li>
+          <li class="nav-item"><a class="nav-link" href="#recursos">Recursos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main id="inicio">
+<section class="hero py-5 py-lg-6">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-7">
+        <span class="badge rounded-pill text-bg-primary mb-3">Projeto reestruturado</span>
+        <h1 class="display-3 fw-bold lh-1">Componentes simples, consistentes e reutilizáveis</h1>
+        <p class="lead text-secondary mt-4">Biblioteca visual de componentes reutilizáveis. Arquitetura organizada, acessível, responsiva e pronta para evolução.</p>
+        <div class="d-flex flex-wrap gap-2 mt-4">
+          <a class="btn btn-primary btn-lg" href="#recursos">Explorar projeto</a>
+          <a class="btn btn-outline-secondary btn-lg" href="#contato">Entrar em contato</a>
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <div class="hero-panel shadow-sm">
+          <div class="small text-uppercase text-secondary fw-semibold">Stack</div>
+          <div class="d-flex flex-wrap gap-2 mt-3">
+            <span class="badge rounded-pill text-bg-dark">HTML5</span>
+            <span class="badge rounded-pill text-bg-dark">CSS3</span>
+            <span class="badge rounded-pill text-bg-dark">JavaScript</span>
+            <span class="badge rounded-pill text-bg-dark">Bootstrap 5</span>
+            <span class="badge rounded-pill text-bg-dark">Node.js</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-5" id="projeto">
+  <div class="container">
+    <div class="mb-4">
+      <span class="text-primary fw-semibold">Implementação</span>
+      <h2 class="display-6 fw-bold mt-2">Estrutura sem excesso de complexidade</h2>
+      <p class="text-secondary mb-0">Sem frameworks JS desnecessários: comportamento em JavaScript vanilla e servidor HTTP simples em Node/Express.</p>
+    </div>
+    <div class="row g-4" id="recursos"><article class="col-12 col-md-6 col-xl-4">
+  <div class="card h-100 shadow-sm border-0 pricing-card">
+    <div class="card-body d-flex flex-column p-4">
+      <span class="badge text-bg-light align-self-start mb-3">Plano</span>
+      <h2 class="h4">Buttons</h2>
+      <p class="display-6 fw-bold mb-3">Ações claras</p>
+      <ul class="list-group list-group-flush mb-4">
+        <li class="list-group-item px-0 bg-transparent"><span aria-hidden="true">✓</span> Primary</li><li class="list-group-item px-0 bg-transparent"><span aria-hidden="true">✓</span> Secondary</li><li class="list-group-item px-0 bg-transparent"><span aria-hidden="true">✓</span> Outline</li>
+      </ul>
+      <button class="btn btn-primary mt-auto js-cta" data-plan="Buttons">Quero conhecer</button>
+    </div>
+  </div>
+</article>
+<article class="col-12 col-md-6 col-xl-4">
+  <div class="card h-100 shadow-sm border-0 pricing-card">
+    <div class="card-body d-flex flex-column p-4">
+      <span class="badge text-bg-light align-self-start mb-3">Plano</span>
+      <h2 class="h4">Forms</h2>
+      <p class="display-6 fw-bold mb-3">Entrada de dados</p>
+      <ul class="list-group list-group-flush mb-4">
+        <li class="list-group-item px-0 bg-transparent"><span aria-hidden="true">✓</span> Inputs</li><li class="list-group-item px-0 bg-transparent"><span aria-hidden="true">✓</span> Validation</li><li class="list-group-item px-0 bg-transparent"><span aria-hidden="true">✓</span> Feedback</li>
+      </ul>
+      <button class="btn btn-primary mt-auto js-cta" data-plan="Forms">Quero conhecer</button>
+    </div>
+  </div>
+</article>
+<article class="col-12 col-md-6 col-xl-4">
+  <div class="card h-100 shadow-sm border-0 pricing-card">
+    <div class="card-body d-flex flex-column p-4">
+      <span class="badge text-bg-light align-self-start mb-3">Plano</span>
+      <h2 class="h4">Cards</h2>
+      <p class="display-6 fw-bold mb-3">Conteúdo modular</p>
+      <ul class="list-group list-group-flush mb-4">
+        <li class="list-group-item px-0 bg-transparent"><span aria-hidden="true">✓</span> Header</li><li class="list-group-item px-0 bg-transparent"><span aria-hidden="true">✓</span> Body</li><li class="list-group-item px-0 bg-transparent"><span aria-hidden="true">✓</span> Actions</li>
+      </ul>
+      <button class="btn btn-primary mt-auto js-cta" data-plan="Cards">Quero conhecer</button>
+    </div>
+  </div>
+</article></div>
+  </div>
+</section>
+
+
+<section class="py-5 bg-body-tertiary" id="contato">
+  <div class="container">
+    <div class="row g-4 align-items-start">
+      <div class="col-lg-5">
+        <span class="text-primary fw-semibold">Contato</span>
+        <h2 class="display-6 fw-bold mt-2">Vamos conversar?</h2>
+        <p class="lead text-secondary">Preencha o formulário e nossa equipe retornará em breve.</p>
+      </div>
+      <div class="col-lg-7">
+        <form id="contactForm" class="card border-0 shadow-sm p-4" novalidate>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label for="name" class="form-label">Nome</label>
+              <input id="name" name="name" class="form-control" required minlength="2">
+              <div class="invalid-feedback">Informe seu nome.</div>
+            </div>
+            <div class="col-md-6">
+              <label for="email" class="form-label">E-mail</label>
+              <input id="email" name="email" type="email" class="form-control" required>
+              <div class="invalid-feedback">Informe um e-mail válido.</div>
+            </div>
+            <div class="col-12">
+              <label for="message" class="form-label">Mensagem</label>
+              <textarea id="message" name="message" class="form-control" rows="5" required minlength="10"></textarea>
+              <div class="invalid-feedback">Escreva uma mensagem com pelo menos 10 caracteres.</div>
+            </div>
+            <div class="col-12 d-flex justify-content-between align-items-center gap-3">
+              <small id="formStatus" class="text-secondary" role="status"></small>
+              <button class="btn btn-primary" type="submit">Enviar mensagem</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="border-top py-4">
+  <div class="container d-flex flex-column flex-md-row justify-content-between gap-2">
+    <span class="text-secondary">© 2026 My Components</span>
+    <span class="text-secondary">Projeto educacional inspirado no curso Web Fundamentos.</span>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./script.js" defer></script>
+</body>
+</html>

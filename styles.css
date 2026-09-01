@@ -1,0 +1,78 @@
+*{
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --brand: #0d6efd;
+  --surface: #f8f9fa;
+  --text: #212529;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--text);
+  background: #fff;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+.py-lg-6 {
+  padding-block: 7rem;
+}
+
+.hero {
+  background:
+    radial-gradient(circle at 85% 20%, color-mix(in srgb, var(--brand) 18%, transparent), transparent 32rem),
+    linear-gradient(180deg, #fff, var(--surface));
+}
+
+.hero-panel {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, .08);
+  border-radius: 1.25rem;
+  padding: 2rem;
+}
+
+.pricing-card {
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.pricing-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, .10);
+}
+
+.pricing-card .list-group-item span {
+  color: var(--brand);
+  font-weight: 800;
+}
+
+.btn-primary {
+  --bs-btn-bg: var(--brand);
+  --bs-btn-border-color: var(--brand);
+}
+
+.btn-primary:hover {
+  filter: brightness(.92);
+}
+
+:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--brand) 45%, white);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    transition: none;
+  }
+}
