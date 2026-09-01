@@ -2,7 +2,7 @@
 
 Este é um projeto educacional inspirado no curso **Web Fundamentos**. Ele consiste em uma **biblioteca visual de componentes reutilizáveis**, desenvolvida com uma arquitetura organizada, acessível, responsiva e pronta para evolução.
 Imagem do projetyo:
-![alt text](image.png)
+<img width="1198" height="651" alt="image" src="https://github.com/user-attachments/assets/78602c30-0aae-4f45-8194-c2b6d8e025a7" />
 ## 🚀 Sobre o Projeto
 
 O objetivo deste projeto é demonstrar a construção de componentes de interface de usuário (UI) comuns de forma limpa e sem excesso de complexidade. Não são utilizados frameworks JavaScript pesados no frontend; todo o comportamento é feito com **JavaScript Vanilla** e a estilização baseada no **Bootstrap 5** complementada com CSS customizado. O projeto também inclui um servidor HTTP simples em Node.js com Express para lidar com rotas de API e servir arquivos estáticos.
